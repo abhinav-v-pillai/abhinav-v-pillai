@@ -1,0 +1,65 @@
+/* Basic Styling - Customize to your liking */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0; 
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1em 0;
+}
+
+nav {
+    background-color: #444;
+    color: #fff;
+    padding: 1em 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    margin: 0 1em;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none; 
+}
+
+section {
+    padding: 2em;
+    text-align: justify;
+}
+
+.project { /* Style for each project in projects.html */
+    margin-bottom: 2em;
+    border: 1px solid #ccc;
+    padding: 1em;
+    border-radius: 5px;
+}
+
+.project img { /* Style for project images */
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1em 0;
+    position: relative; /* Position at the bottom of the content */
+    margin-top: 2em; 
+    width: 100%;
+}
